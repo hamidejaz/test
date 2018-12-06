@@ -1,0 +1,521 @@
+/* Custom Stylesheet */
+.brand-logo {
+    background: url('../images/logo.png') no-repeat;
+    width: 140px;
+    height: 73px;
+    margin-left: 1em;
+    margin-top: 5px;
+}
+nav .nav-wrapper {
+    background: #fff;
+    border-bottom: 3px solid #b01116;
+    box-shadow: none;
+    height: 95px;
+}
+body {
+    background: #eee;
+    position:relative;
+    /*background: url('../images/bg1.jpg') no-repeat;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    transition: all ease-in-out 0.27s;
+}
+nav ul {
+    margin-top: 15px;
+    margin-right: 2.5em;
+}
+nav ul span {
+    color: #808284;
+}
+    nav ul img {
+        margin: 0 10px;
+        position:relative;
+        top: 7px;
+    }
+.footer-copyright {
+    background: #fec10d !important;
+    padding:0 1.5em;
+    font-size: 0.9em;
+    text-align:center;
+    color: #000 !important;
+}
+footer.page-footer {
+    background: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99999;
+    display: none;
+}
+    footer.page-footer .footer-copyright {
+        height: 35px;
+        line-height: 35px;
+    }
+.content {
+    margin-top: 2em;
+    padding: 2em;
+}
+.progress-indicator {
+    text-align:center;
+    margin-bottom: 2em;
+    display:flex;
+}
+    .progress-indicator .number {
+    display: inline-block;
+    background: #a7a9ab;
+    padding: 0.5em;
+    border-radius: 2px;
+    color: #000;
+    /*font-size: 1.5em;*/
+    opacity: 0.6;
+    margin: 0 auto;
+    position:relative;
+    }
+.activeIndi {
+    background: #c4151c !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    
+}
+    .progress-indicator .line {
+        width: 100%;
+        background: #a7a9ab;
+        height: 2px;
+        display: inline-block;
+        position:relative;
+        top: 17px;
+        opacity: 0.6;
+    }
+.cartWrapper {
+    background: #fff;
+    /*box-shadow: 0 5px 5px #ccc;*/
+    padding: 0.5em 1em;
+    margin-bottom: 1em;
+    border-radius: 2px;
+}
+.cartWrapper .heading {
+    margin: 0;
+    font-size: 1.2em;
+    color: #57585b;
+}
+    .cartWrapper p {
+         color: #808284;
+         margin: 10px 0;
+    }
+    .cartWrapper span {
+        font-weight: 400;
+        color:#666;
+    }
+    .cartWrapper strike {
+        font-size: 0.8em;
+        margin:0 2px;
+    }
+.editCartBtn {
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    color: #221f20;
+    display: inline-block;
+    border: 1px solid #eee;
+    width: 120px;
+    padding: 0;
+    margin: 0.2em;
+}
+.form {
+    background: #fff;
+    /*box-shadow: 0 5px 5px #ccc;*/
+    padding: 1em !important;
+    border-radius: 2px; 
+}
+#mobileAccount,#voucherPayment,#cardPayment,#MPAY {
+    display: none;
+}
+#internetBanking{
+    display:none;
+}
+.cvvimage {
+    position:relative;
+    top: 16px;
+    cursor:pointer;
+}
+.submit {
+        background:#c4151c;
+        color:#fff;
+}
+.submit:hover {
+        background:#b01116;
+        color:#fff;
+}
+.blurWindow {
+    background: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+    text-align: center;
+}
+.preloaderAni {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #57585b;
+    font-size: 2rem;
+    padding:0 0.5rem;
+}
+.progress {
+    height: 1px;
+}
+.progress .indeterminate {
+    background: #90272a;
+}
+.formCheckBox {
+    display: none;
+}
+#stepsHeadings {
+    padding:0;
+    margin: 10px 0 0 10px;
+    font-size: 1.5em;
+    color: #666;
+}
+.cardInfo {
+        background: rgba(0,0,0,0.1);
+        margin: 10px 0 10px 10px;
+        padding: 0.5em;
+        /* opacity: 0.5; */
+        color: #b01116;
+        display: none;
+        font-size: 13px;
+}
+.mobileWalletInfo {
+        background: rgba(0,0,0,0.1);
+        margin: 10px 0 10px 10px;
+        padding: 0.5em;
+        /* opacity: 0.5; */
+        color: #b01116;
+        display: none;
+        font-size: 13px;
+}
+.tabs .tab a {
+    padding: 0;
+}
+.tabs .tab {
+    width: 100% !important;
+    text-align:left;
+}
+#formPreloader {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+#formPreloader3 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+.callBackThankYou {
+    text-align:center;
+    display: none;
+    padding: 2em 0.5em;
+}
+.formContent {
+    position:relative;
+    
+}
+.result {
+    display: none;
+        position: relative;
+    top: -38px;
+}
+.thankYou {
+    display: none;
+    margin-top: -20px;
+    position:relative;
+    min-height: 30vh;
+}
+    .thankYou h5 {
+        position:absolute;
+        bottom:0;
+        text-align:center;
+        left: 0;
+        right: 0;
+    }
+.preloadertransformFix {
+    position:absolute;
+    top: 20%;
+    left: 0;
+    display: none;
+    right: 0;
+    text-align: center;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #b01116;
+}
+.tabs .indicator {
+    background: #fec10d;
+    width: 100%;
+}
+.tabs {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.overlay {
+    position:fixed;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+nav, .container-fluid.content {
+    position: relative;
+    z-index: 99;
+}
+#modal4 td {
+    vertical-align:top;
+}
+.chatBox {
+    position: fixed;
+    bottom: 32px;
+    right: 45px;
+    width: 200px;
+    height: 32px;
+    opacity: 0.72;
+    z-index: 99999999;
+    cursor: pointer;
+}
+
+    .chatBox:hover {
+        opacity: 1;
+    }
+.callBack {
+    clear:both;
+    position:relative;
+}
+    .callBack .input-field {
+        margin: 10px 0 0 0;
+    }
+    .callBack h3 {
+        font-size: 14px;
+        color: #b01116;
+        margin: 0;
+        padding: 1.1em 1em 0.5em 1em;
+        text-transform: uppercase;
+    }
+    .callBack input {
+        margin:0;
+        padding:0;
+    }
+    .callBack .btn {
+        padding: 10px 20px;
+        width: 100%;
+        line-height: normal;
+        height: auto;
+        margin-top: 5px;
+        background: #c4151c;
+    }
+        .callBack .btn:hover {
+            background: #b01116;
+        }
+    .callBack .linehead {
+        background: #fec10d;
+        width: 100%;
+        height:2px;
+        margin-top: 7px;
+    }
+.cartWrapper2 {
+    background: #fff;
+    margin-bottom: 1em;
+    border-radius: 2px;
+}
+.callBack form {
+    padding: 0.5em 1em;
+}
+#tabs-swipe-demo .tab a {
+    padding:0 10px;
+}
+.formBtns {
+    display: none;
+}
+.zopim {
+    right: auto !important;
+    left: 10px !important;
+    display: none;
+}
+.fixed-action-btn {
+    z-index: 999999;
+    right: 40px;
+    display:none;
+}
+#modal5 {
+    width: 400px;
+}
+    #modal5 .modal-content {
+        padding: 0;
+    }
+.btn-floating.btn-large i {
+    background: #c4151c !important
+}
+.countDownWrapper {
+    text-align:center;
+    display:none;
+}
+    .countDownWrapper h5 {
+        text-align:center;
+        font-size: 1.3em;
+        color: #666;
+    }
+.coutndown-wrapper-time {
+    position:relative !important;
+    width: auto !important;
+}
+.coutndown-wrapper {
+    left: 82px !important;
+}
+.textDiv_Seconds {
+    width: 100% !important;
+}
+.contactNumbersWrapper {
+    display:none;
+}
+.contactNumbersWrapper h5 {
+    padding: 0;
+    margin: 10px 0 0 10px;
+    font-size: 1.2em;
+    color: #666;
+    text-transform:uppercase;
+}
+.errorDiv {
+    background: rgba(196, 21, 28, 0.1) !important;
+    border: 1px solid rgba(196, 21, 28, 0.3) !important;
+    padding: 0.3rem !important;
+    display:none;
+    margin: 0.5rem 0;
+}
+.serverSideError {
+    background: rgba(196, 21, 28, 0.1) !important;
+    border: 1px solid rgba(196, 21, 28, 0.3) !important;
+    padding: 0.3rem !important;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+    .errorDiv p {
+        margin: 0;
+        padding: 0;
+    }
+.completedTask1, .completedTask2, .completedTask3 {
+    color: green;
+    position: absolute;
+    right: 1rem;
+    top: 7px;
+    display:none !important;
+}
+
+#leftSide {
+    background: #fff;
+    padding: 1em 1em 0 1em !important;
+    border-radius: 2px;
+}
+.loadingDiscount {
+    background: rgba(0, 128, 0, 0.16);
+    padding: 0.5rem;
+    border: 1px solid green;
+    color: #000 !important;
+    font-size: 14px;
+}
+.mobileEmulatorWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100%;
+    z-index: 1000000;
+    display: none;
+}
+    .mobileEmulatorWrapper .mobileEmulatorInner {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+        .mobileEmulatorWrapper .mobileEmulatorInner .mobileEmulatorBG {
+            position: relative;
+        }
+        .mobileEmulatorWrapper .mobileEmulatorInner .mobileEmulatorMessageBox {
+            background: #fff;
+            width: 75%;
+            margin: 0 auto;
+            float: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 0;
+            right: 0;
+            padding: 1rem;
+        }
+            .mobileEmulatorWrapper .mobileEmulatorInner .mobileEmulatorMessageBox button {
+                width: 80px;
+                margin-top: 0;
+                border: none;
+                color: #fff;
+                padding: 0.3rem 0.5rem;
+            }
+                .mobileEmulatorWrapper .mobileEmulatorInner .mobileEmulatorMessageBox button.emulateYes {
+                    background: #81C784;
+                }
+                .mobileEmulatorWrapper .mobileEmulatorInner .mobileEmulatorMessageBox button.emulateNo {
+                    background: #F06292;
+                }
+    .mobileEmulatorWrapper .mobileEmulatorBG {
+        background: url('../images/phone-emulator-bg.png') no-repeat;
+        width: 300px;
+        height: 608px;
+        margin:0 auto;
+    }
+
+@media only screen and (max-width: 992px) {
+    .brand-logo {
+        margin-left: 0;
+    }
+    .progress-indicator .number {
+        margin-bottom: 10px;
+    }
+    .progress-indicator {
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .thankYou {
+        margin-top: -20px;
+    }
+    #leftSide {
+        margin-top: -20px;
+        width: 100%;
+    }
+    #rightSide {
+        padding: 0;
+        margin-top: 1rem;
+    }
+    .zopim {
+            display: none !important;
+        }
+    .coutndown-wrapper {
+        left: 46px !important;
+    }
+    .completedTask1, .completedTask2, .completedTask3 {
+        position: relative;
+        right: 0;
+        top: 7px;
+        left: 0;
+    }
+}
